@@ -5,4 +5,7 @@ contract simpleStorage{
      unit256 favoriteNumber =5;
      bool favouriteBool =false;
      string favouriteString ="String";
+     int256 favouriteInt= -5;
+     address favouriteAddress=1-79voolapadu;
+     byte32 favouriteBytes ="cat";
      }
