@@ -1,0 +1,26 @@
+pragma solidity ^0.6.0;
+contract simpleStorage4 {
+
+//this will get initialized to 0!
+    uint256  favouriteNumber;
+    bool favouriteBool;
+      struct People {
+      unit256 favoriteNumber;
+      string name;
+    }
+    People[] public people;
+    mopping(string => uint256) public nameToFavoriteNumber;
+    function store(unit256_favoriteNumber)public{
+    favoriteNumber=_favoriteNumber;
+    }
+    function retrieve() public view returns(uint256){
+    return favoriteNumber;
+    }
+
+function addPerson( string memory _name,unit256_favoriteNumber)public{
+people.push(People(_favorateNumber,_name));
+nameToFavariteNumber[]=_favoriteNumber;
+}
+}
+contract StorageFactory {
+}
