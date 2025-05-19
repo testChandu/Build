@@ -6,4 +6,6 @@ function createSimpleStorageContract() public {
 simpleStorage4 simpleStorage5 = new simpleStorage4();
 simpleStorageArray.push(simpleStorage5);
 }
+function sgStore(uint256_simpleStorageIndex,uint256_simpleStorageNumber)public{
+}
 }
