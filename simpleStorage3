@@ -7,8 +7,8 @@ contract simpleStorage3 {
       unit256 favoriteNumber;
       string name
     }
-    People [] public people;
-    mapping(string=>uint256) public nameToFavoriteNumber;
+    People[] public people;
+    mapping(string => uint256) public nameToFavoriteNumber;
     function store(unit256_favoriteNumber)public{
     favoriteNumber=_favoriteNumber;
     }
