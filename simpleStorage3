@@ -3,7 +3,7 @@ contract simpleStorage3 {
 //this will get initialized to 0!
     uint256  favouriteNumber;
     bool favouriteBool;
-      struck People {
+      struct People {
       unit256 favoriteNumber;
       string name
     }
